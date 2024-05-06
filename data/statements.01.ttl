@@ -9,12 +9,30 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix pmid: <https://pubmed.ncbi.nlm.nih.gov/> .
+@prefix edam: <http://edamontology.org/> .
+@prefix here: <https://github.com/lindenb/microstatements/> .
+
 
 # About me
 
 orcid:0000-0003-0148-9787
     rdf:type foaf:Person ;
     foaf:name "Pierre Lindenbaum" .
+
+
+# human REFs, used when the region is not a gene but an interval
+
+<#grch38>
+    rdf:type edam:data_2340 ;
+    rdfs:label "GRCh38" ;
+    <http://purl.uniprot.org/core/organism>  <http://purl.uniprot.org/taxonomy/9606>
+    .
+
+<#grch37>
+    rdf:type edam:data_2340 ;
+    rdfs:label "GRCh37" ;
+    <http://purl.uniprot.org/core/organism>  <http://purl.uniprot.org/taxonomy/9606>
+    .
 
 
 # Statements

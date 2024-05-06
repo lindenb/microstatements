@@ -1,0 +1,17 @@
+cff-version: "1.0.0"
+abstract: "cutsom RDF statements for bioinformatics to complete larger RDF databases like MONDO"
+authors: 
+  - family-names: "Lindenbaum"
+    given-names: "Pierre"
+    orcid: "https://orcid.org/0000-0003-0148-9787"
+keywords: 
+  - bioinformatics
+  - rdf
+  - knowledge
+  - disease
+  - gene
+license: MIT
+message: "If you use this software, please cite it using these metadata."
+repository-code: "http://github.com/lindenb/microstatements"
+title: microstatements
+version: " 2024.05.06"

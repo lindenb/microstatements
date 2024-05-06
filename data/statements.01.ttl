@@ -1,0 +1,80 @@
+@base <https://github.com/lindenb/microstatements/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix orcid: <https://orcid.org/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix hgnc: <http://identifiers.org/hgnc> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix pmid: <https://pubmed.ncbi.nlm.nih.gov/> .
+
+# About me
+
+orcid:0000-0003-0148-9787
+    rdf:type foaf:Person ;
+    foaf:name "Pierre Lindenbaum" .
+
+
+# Statements
+
+<#stmt1>
+    dc:description "PITX2 and atrial fibrillation" ;
+    rdf:type rdf:Statement ;
+    rdf:subject obo:MONDO_0004981  ;
+    rdf:predicate obo:RO_0004003 ;
+    rdf:object hgnc:9005 ;
+    dc:creator orcid:0000-0003-0148-9787 ;
+    dc:created "2024-05-16"^^xsd:date ; 
+    dc:source pmid:38643172
+    .
+
+
+<#stmt2>
+    dc:description "HEY2 and Brugada syndrome" ;
+    rdf:type rdf:Statement ;
+    rdf:subject obo:MONDO_0015263  ;
+    rdf:predicate obo:RO_0004003 ;
+    rdf:object hgnc:4881 ;
+    dc:creator orcid:0000-0003-0148-9787 ;
+    dc:created "2024-05-16"^^xsd:date ; 
+    dc:source pmid:28637782
+    .
+
+<#stmt3>
+    dc:description "Rotavirus and EIF4G1" ;
+    rdf:type rdf:Statement ;
+    rdf:subject obo:MONDO_0005194  ;
+    rdf:predicate obo:RO_0004003 ;
+    rdf:object hgnc:3296 ;
+    dc:creator orcid:0000-0003-0148-9787 ;
+    dc:created "2024-05-16"^^xsd:date ; 
+    dc:source pmid:9755181
+    .
+
+
+<#stmt4>
+    dc:description "Rotavirus and RoXaN" ;
+    rdf:type rdf:Statement ;
+    rdf:subject obo:MONDO_0005194  ;
+    rdf:predicate obo:RO_0004003 ;
+    rdf:object hgnc:30869 ;
+    dc:creator orcid:0000-0003-0148-9787 ;
+    dc:created "2024-05-16"^^xsd:date ; 
+    dc:source pmid:15047801
+    .
+
+<#stmt5>
+    dc:description "Rotavirus and XBP1" ;
+    rdf:type rdf:Statement ;
+    rdf:subject obo:MONDO_0005194  ;
+    rdf:predicate obo:RO_0004003 ;
+    rdf:object hgnc:12801 ;
+    dc:creator orcid:0000-0003-0148-9787 ;
+    dc:created "2024-05-16"^^xsd:date ; 
+    dc:source pmid:30541862
+    .
+
+
+

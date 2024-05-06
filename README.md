@@ -52,6 +52,7 @@ where:
 * https://www.ebi.ac.uk/ols4/
 * https://www.genenames.org/
 * https://github.com/monarch-initiative/mondo
+* https://www.w3.org/2015/03/ShExValidata/ (RDF validation)
 
 ## License
 

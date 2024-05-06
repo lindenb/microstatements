@@ -94,5 +94,16 @@ orcid:0000-0003-0148-9787
     dc:source pmid:30541862
     .
 
+<#stmt6>
+    dc:description "FAIM2 and childhood obesity" ;
+    rdf:type rdf:Statement ;
+    rdf:subject obo:MONDO_0011122  ;
+    rdf:predicate obo:RO_0004003 ;
+    rdf:object hgnc:17067 ;
+    dc:creator orcid:0000-0003-0148-9787 ;
+    dc:created "2024-05-16"^^xsd:date ; 
+    dc:source <https://doi.org/10.1016/j.xgen.2024.100556>
+    .
+
 
 

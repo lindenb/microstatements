@@ -90,7 +90,7 @@ orcid:0000-0003-0148-9787
     rdf:predicate obo:RO_0004003 ;
     rdf:object hgnc:12801 ;
     dc:creator orcid:0000-0003-0148-9787 ;
-    dc:created "2024-05-16"^^xsd:date ; 
+    dc:created "2024-04-16"^^xsd:date ; 
     dc:source pmid:30541862
     .
 
@@ -101,9 +101,48 @@ orcid:0000-0003-0148-9787
     rdf:predicate obo:RO_0004003 ;
     rdf:object hgnc:17067 ;
     dc:creator orcid:0000-0003-0148-9787 ;
-    dc:created "2024-05-16"^^xsd:date ; 
+    dc:created "2024-04-16"^^xsd:date ; 
     dc:source <https://doi.org/10.1016/j.xgen.2024.100556>
     .
+
+
+<#stmt7>
+    dc:description "ACTA1 nemalyne myopathy" ;
+    rdf:type rdf:Statement ;
+    rdf:subject obo:MONDO_0018958  ;
+    rdf:predicate obo:RO_0004003 ;
+    rdf:object hgnc:129 ;
+    dc:creator orcid:0000-0003-0148-9787 ;
+    dc:created "2024-05-12"^^xsd:date ; 
+    dc:source pmid:36796746
+    .
+
+
+
+<#stmt8>
+    dc:description "ANKRD1 dilated cardiomypothy" ;
+    rdf:type rdf:Statement ;
+    rdf:subject obo:MONDO_0005021  ;
+    rdf:predicate obo:RO_0004003 ;
+    rdf:object hgnc:21316 ;
+    dc:creator orcid:0000-0003-0148-9787 ;
+    dc:created "2024-05-12"^^xsd:date ; 
+    dc:source pmid:36927816
+    .
+
+<#stmt9>
+    dc:description "APOA1 cardiometabolic diseases (in mouse?)" ;
+    rdf:type rdf:Statement ;
+    rdf:subject obo:MONDO_0005267  ;
+    rdf:predicate obo:RO_0004003 ;
+    rdf:object hgnc:600 ;
+    dc:creator orcid:0000-0003-0148-9787 ;
+    dc:created "2024-05-12"^^xsd:date ; 
+    dc:source pmid:38310324
+    .
+
+
+
 
 
 
